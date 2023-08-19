@@ -16,7 +16,7 @@ height = gets.to_i
 weight = (height - 110) * 1.15
 
 if weight > 0 
-puts "#{name} , ваш идеальный вес составляет #{weight.to_i} кг . " 
+  puts "#{name} , ваш идеальный вес составляет #{weight.to_i} кг . " 
 else
-	puts "#{name} , ваш вес уже оптимальный ."
+  puts "#{name} , ваш вес уже оптимальный ."
 end
