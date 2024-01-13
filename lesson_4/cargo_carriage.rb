@@ -1,0 +1,2 @@
+class CargoCarriage < RailwayCarriage
+end
